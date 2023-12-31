@@ -311,6 +311,5 @@ class MainScreen(lstm_logic,Bnb_Trade):
         self.bm.stop_socket(self.conn_key)
         self.bm.close()
     
-
-
-MainScreen()
+if __name__ == "__main__":
+    MainScreen()    
